@@ -4,6 +4,10 @@ def oxford_comma(array)
     array
   when 2
     array = array.insert(-2, "and")
+    array = array.join(" ")
+    array
+  when > 2
+    
   
   array = array.join(", ")
   array = array.split
