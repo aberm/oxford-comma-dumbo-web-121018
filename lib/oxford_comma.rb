@@ -1,6 +1,6 @@
 def oxford_comma(array)
-  case array
-  when 
+  case array.length
+  when 1
   
   array = array.join(", ")
   array = array.split
