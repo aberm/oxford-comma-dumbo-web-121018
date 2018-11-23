@@ -11,8 +11,6 @@ def oxford_comma(array)
     for i in (0...array.length-2) do
       array[i] += ","
     end
-    
-    
     array = array.join(" ")
     array
   end
