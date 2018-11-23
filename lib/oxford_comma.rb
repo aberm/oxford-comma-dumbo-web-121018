@@ -3,7 +3,7 @@ def oxford_comma(array)
   when 1
     array
   when 2
-    
+    array = array.insert(-2, "and")
   
   array = array.join(", ")
   array = array.split
