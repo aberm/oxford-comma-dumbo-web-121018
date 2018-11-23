@@ -1,4 +1,7 @@
 def oxford_comma(array)
+  case array do
+    
+  
   array = array.join(", ")
   array = array.split
   array = array.insert(-2, "and")
